@@ -1,0 +1,6 @@
+#config files and jsons derulos#
+
+*.json
+*.yml
+node_modules
+

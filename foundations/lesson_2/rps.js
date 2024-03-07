@@ -7,10 +7,10 @@ function checkWinConditions(firstChoice, secondChoice) {
       (firstChoice === 'paper' && (secondChoice === 'rock' || secondChoice === 'spock')) ||
       (firstChoice === 'spock' && (secondChoice === 'rock' || secondChoice === 'scissors')) ||
       (firstChoice === 'lizard' && (secondChoice === 'paper' || secondChoice === 'spock'))) {
-        return true;
-      } else {
-        return false;
-      }
+    return true;
+  } else {
+    return false;
+  }
 }
 
 let playerWin;
@@ -41,17 +41,17 @@ function winCounter() {
 }
 
 function displayMatchScore() {
-  console.log('---OUR BEST OF 5 MATCH RECORD---')
-  prompt(`ME:\n${computerWinCount}`)
-  prompt(`you...\n${playerWinCount}`)
+  console.log('---OUR BEST OF 5 MATCH RECORD---');
+  prompt(`ME:\n${computerWinCount}`);
+  prompt(`you...\n${playerWinCount}`);
 }
 
 function championDetermined() {
   if (computerWinCount >= 3) {
-    prompt('I AM VICTORIOUS')
+    prompt('I AM VICTORIOUS');
     return true;
   } else if (playerWinCount >= 3) {
-    prompt('It is a game of luck... you were destined to win at some point.')
+    prompt('It is a game of luck... you were destined to win at some point.');
     return true;
   } else {
     return false;
@@ -85,7 +85,7 @@ while (true) {
     } else {
       prompt('You must choose either (r)ock, (p)aper, (sc)issors, (l)izard, or (sp)ock\n--> Input a valid choice.');
     }
-      
+
     playerSelectionArray = playerSelect(readline.question().toLowerCase());
   }
 
@@ -96,7 +96,7 @@ while (true) {
 
   playerWin = checkWinConditions(player, computer);
   computerWin = checkWinConditions(computer, player);
-  
+
   displayWinner(player, computer);
   winCounter();
   displayMatchScore();

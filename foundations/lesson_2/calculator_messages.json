@@ -1,0 +1,42 @@
+
+{
+  "en": {
+    "welcome": "Welcome to the Calculator!!",
+    "firstNum": "What is the first number?",
+    "invalidNum": "Hmm... that doesn't look like a valid number. Try again.",
+    "secondNum": "What is the second number?",
+    "whichOp": "What operation? \n--> 1) add | 2) subtract | 3) multiply | 4) divide",
+    "invalidOp": "Must choose 1, 2, 3 or 4",
+    "moreCalcs": "Would you like to perform another calculation? \n Y or N",
+    "validDecArray": ["Y", "N"],
+    "invalidDec": "Must choose either Y or N",
+    "goodbye": "Thank you for using my Calculator!!! Goodbye!!!",
+    "result": "The result is: "
+  },
+  "es": {
+    "welcome": "¡¡Bienvenidos a la Calculadora!!",
+    "firstNum": "¿Cuál es el primer número?",
+    "invalidNum": "Hmm... ese no parece un número válido. Intentar otra vez.",
+    "secondNum": "¿Cuál es el segundo número?",
+    "whichOp": "¿Qué operación? \n--> 1) agregar | 2) restar | 3) multiplicar | 4) dividir",
+    "invalidOp": "Debes elegir 1, 2, 3 o 4",
+    "moreCalcs": "¿Le gustaría realizar otro cálculo? \n S o N",
+    "validDecArray": ["S", "N"],
+    "invalidDec": "Debe elegir S o N",
+    "goodbye": "¡¡¡Gracias por usar mi Calculadora!!! ¡¡¡Adiós!!!",
+    "result": "El resultado es: "
+  },
+  "fr": {
+    "welcome": "Bienvenue sur la calculatrice !!",
+    "firstNum": "Quel est le premier chiffre ?",
+    "invalidNum": "Hmm... cela ne ressemble pas à un numéro valide. Essayer à nouveau.",
+    "secondNum": "Quel est le deuxième chiffre ?",
+    "whichOp": "Quelle opération ? \n--> 1) ajouter | 2) soustraire | 3) multiplier | 4) diviser",
+    "invalidOp": "Doit choisir 1, 2, 3 ou 4",
+    "moreCalcs": "Souhaitez-vous effectuer un autre calcul ? \n O ou N",
+    "validDecArray": ["O", "N"],
+    "invalidDec": "Doit choisir O ou N",
+    "goodbye": "Merci d'utiliser ma calculatrice !!! Au revoir!!!",
+    "result": "Le résultat est: "
+  }
+}

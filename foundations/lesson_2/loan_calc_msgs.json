@@ -1,0 +1,13 @@
+{
+  "en": {
+          "welcome": "Welcome to the Loan Calculator!!! \nLet's figure out what your monthly bill is going to be :)",
+          "getLoanAmount": "What is the total loan amount?",
+          "validAmount": "That number doesn't look right, make sure you're entering the information correctly.",
+          "getAPR": "What is the APR for the loan? \n(For 15% just type '15')",
+          "validAPR": "Make sure you are entering your APR correctly",
+          "getLoanDuration": "How many years is the loan set up for?",
+          "validLoanDuration": "That number doesn't look right. Double check it and re-enter",
+          "result": "Your monthly payment for the loan would be: ",
+          "goodbye": "Thank you for using the Loan Calculator. Goodbye!!!"
+        }
+}
